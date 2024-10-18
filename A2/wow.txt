@@ -1,0 +1,13 @@
+# Glenn Raphael De Los Reyes
+# 11189672
+# gld141
+
+I wrote a program that asks the user about the cat and fish situation and the program draws it out.
+
+How many cats are there? How many fish?
+
+Based on the answers to these questions, the picture could look very different.
+
+If there are more fish than cats (there is a fish surplus), one cat could hoard more food than it needs.
+
+If there are more cats than fish (there is a fish scarcity)...well, let's just say it's not pretty...
