@@ -1,0 +1,6 @@
+Raphael De Los Reyes
+11189672
+gld141
+
+Testing out the pokemon attack effectives function  in a3q3 can be tedious and error prone. To make testing easier, I wrote some code to loop through all the types in the table, using each type as the attacking type. Then I have a nested loop going through all the types again and using this as the defending type. Inside this nested loop I call the get_effectives function, imported from a3q3.py, and print the result. 
+This program outputs all the combinations of attacking and defending types and their result. This makes testing really easy and quick.
