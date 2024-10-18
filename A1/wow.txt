@@ -1,0 +1,9 @@
+Glenn Raphael De Los Reyes
+11189672
+gld141
+
+
+I wrote a program that asks the user if they have read chapter 1 of the assigned readings (ITC).
+The program will continually ask until the user provides the specific answers required (either "yes" or "no").
+Then the user is met with a surprize quiz about things that were learned in chapter 1 of the reading. The user tries to answer all the questions while their score is tracked. 
+Finally a results message is printed for the user at the end of the quiz.

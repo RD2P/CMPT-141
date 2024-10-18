@@ -1,0 +1,18 @@
+Glenn Raphael De Los Reyes
+11189672
+gld141
+
+
+a) This is a violation. The scenario does not specify if working together is allowed for this assignment, so maybe collaboration or discussion is okay. However, even if working together is allowed or encouraged, each student still has to do their own work. This would be considered plagiarism by the academic honesty page.
+
+b) Obvious violation. Not only is this plagiarism according to the academic honesty page, it would also be illegal. Ash could face criminal charges on top of getting in trouble with the university.
+
+c) This one may seem okay, but I think this still violates academic honesty. Firstly, they are a study group who only decided to work together - it doesn't seem like collaboration was specifically allowed by the prof. Second, even if they all participated in the discussion, they still didn't all do the questions themselves. Finally, they all copied the same answers which is not okay. 
+
+d) This one is okay. Helping other students with syntax errors in the lab is allowed, and maybe the problem has a specific solution where all programs pretty much look the same. Like a function to add two numbers would all look about the same. This would become a problem if Brock just copied Misty's code line by line, but it doesn't look to be the case.
+
+e) This is okay. The academic honesty page says high level discussions are allowed in the lab and Meowth ended up fixing the problem on his own.
+
+f) This is okay. This is also a high level discussion and they ended up working through the problem on their own without copying each other's work.
+
+g) This is a violation. We're not allowed to copy stuff from outside source without citation. This is plagiarism. He should understand how it works and then write the program on his own.
