@@ -1,0 +1,65 @@
+Raphael De Los Reyes
+11189672
+gld141
+
+Building on top of a4q2 (Pikachu and Koffing dice problem), I looked for a way to optimize the number of dice that Pikachu could play, given Koffing's health.
+
+First, the user input's Koffing's health, and the code uses the attack() function from a4q2 in a loop that tries out different numbers of dice to compare their win percentages. As an example, for a Koffing health of 2, the highest win percentage seem to be with 9-12 dice.
+
+I then used matplot to plot these numbers, with dice as the x-axis and win% as the y-axis.
+I also find the max win% and print to the console the number of dice Pikachu would need for the highest chance of winning.
+
+Sample output with Koffing health 10:
+
+Enter Koffing health: 10
+Dice: 1 --> Win %: 0.0
+Dice: 2 --> Win %: 0.0
+Dice: 3 --> Win %: 0.0
+Dice: 4 --> Win %: 0.0
+Dice: 5 --> Win %: 0.0
+Dice: 6 --> Win %: 0.1
+Dice: 7 --> Win %: 0.1
+Dice: 8 --> Win %: 0.7
+Dice: 9 --> Win %: 1.0
+Dice: 10 --> Win %: 2.4
+Dice: 11 --> Win %: 4.1
+Dice: 12 --> Win %: 6.5
+Dice: 13 --> Win %: 7.1
+Dice: 14 --> Win %: 11.2
+Dice: 15 --> Win %: 13.5
+Dice: 16 --> Win %: 13.5
+Dice: 17 --> Win %: 16.4
+Dice: 18 --> Win %: 16.6
+Dice: 19 --> Win %: 17.8
+Dice: 20 --> Win %: 17.7
+Dice: 21 --> Win %: 17.3
+Dice: 22 --> Win %: 16.6
+Dice: 23 --> Win %: 17.1
+Dice: 24 --> Win %: 16.4
+Dice: 25 --> Win %: 14.6
+Dice: 26 --> Win %: 13.7
+Dice: 27 --> Win %: 11.7
+Dice: 28 --> Win %: 10.6
+Dice: 29 --> Win %: 8.1
+Dice: 30 --> Win %: 9.2
+Dice: 31 --> Win %: 10.2
+Dice: 32 --> Win %: 6.9
+Dice: 33 --> Win %: 6.7
+Dice: 34 --> Win %: 5.3
+Dice: 35 --> Win %: 3.7
+Dice: 36 --> Win %: 5.0
+Dice: 37 --> Win %: 3.8
+Dice: 38 --> Win %: 4.6
+Dice: 39 --> Win %: 3.6
+Dice: 40 --> Win %: 2.9
+Dice: 41 --> Win %: 2.5
+Dice: 42 --> Win %: 2.6
+Dice: 43 --> Win %: 1.7
+Dice: 44 --> Win %: 2.0
+Dice: 45 --> Win %: 1.8
+Dice: 46 --> Win %: 1.4
+Dice: 47 --> Win %: 0.8
+Dice: 48 --> Win %: 0.9
+Dice: 49 --> Win %: 0.7
+Dice: 50 --> Win %: 0.8
+Optimal number of dice: 19

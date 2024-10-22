@@ -1,0 +1,27 @@
+Raphael De Los Reyes
+11189672
+gld141
+
+Case 1: 6 dice and 2 health
+  How many dice does Pikachu have? 6
+  How much health does Koffing have? 2
+  Pikachu rolled 6 dice against a Koffing with 2 health.
+  Pikachu won 459 out of 1000 times ( 45.9 %)
+
+Case 2: 8 dice and 3 health
+  How many dice does Pikachu have? 8
+  How much health does Koffing have? 3
+  Pikachu rolled 8 dice against a Koffing with 3 health.
+  Pikachu won 452 out of 1000 times ( 45.2 %)
+
+Case 3: 10 dice and 5 health
+  How many dice does Pikachu have? 10
+  How much health does Koffing have? 5
+  Pikachu rolled 10 dice against a Koffing with 5 health.
+  Pikachu won 378 out of 1000 times ( 37.8 %)
+
+
+QUESTION:  assuming Koffing’s health stays the same, is adding more dice ALWAYS better for Pikachu? Why or why not?
+
+ANSWER: No, more dice is not always the better for Pikachu. This is because of the unlucky number 1. The higher the number of dice, the higher the likelihood of a triplet of 1s, resulting in zero damage.
+
