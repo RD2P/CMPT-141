@@ -72,3 +72,7 @@
 # m.close()
 
 
+# len(f) is NOT ALLOWED
+# f = open('data.txt')
+# for i in range(len(f)):
+#   print(f(i))
