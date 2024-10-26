@@ -1,0 +1,21 @@
+Glenn Raphael De Los Reyes
+11189672
+gld141
+
+This project I attempted a silly idea. I am making a tic tac toe game in file explorer using the open(), read(), and write() functions in python.
+
+The overall idea is to create blank images in file explorer. These blank images would act as the canvas where we'd be able to play tic tac toe. There would be 9 blank images representing the 3x3 grid. 
+
+So in order to play, we'd first have to open this project in file explorer, then resize the file explorer window such that the 9 images are in a 3x3 pattern. Then, during a player's turn, I simply replace one of the blank images with an image of an X or an O, depending which player they are.
+
+The first step is figuring out how to read and write images. I learned this can be done with the binary mode 'rb' or 'wb'. Eg: I could read the binary data from an image with:
+
+f = open(imagepath, 'rb')
+data = f.read()
+
+Then I saved images of a black square, an X, and an O. I saved these as pngs of 100px x 100px, so that they're uniform when displayed on the canvas.
+
+From here, the code for the tic tac toe itself is pretty straightfoward for me, as I've made tic tac toe as a personal project before.
+The game is playable and the winner checking works. In the future, I'll add a guard against overriding X's and O's already on the board.
+
+But anyways, just the fact that tic tac toe is possible in the file explorer is too funny! 😂
