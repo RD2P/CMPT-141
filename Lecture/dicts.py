@@ -1,5 +1,8 @@
 d = { 'a': 1, 'b': 2, 'c': 1, 'd': 2, 'e': 1 }
-
+e = {}
+for i,j in d.items():
+  # e[j] = i
+  print(i,j)
 
 # check if key is in dict
 # print('a' in d) --> True
