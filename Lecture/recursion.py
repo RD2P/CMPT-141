@@ -50,6 +50,16 @@ def is_even(n):
   else:
     return is_even(n-2)
 
+
+# print 1 to n
+def print_nums(n, current=0):
+  if current < n:
+    print(current)
+    print_nums(n, current+1)
+
+print_nums(4)
+
+
 # recursion limit helps guard against stack overflows
 # import sys
 # print(sys.getrecursionlimit()) # 1000
