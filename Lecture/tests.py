@@ -3,9 +3,14 @@
 def double(n):
   return n*n
 
-test_val = 9
+input = 9
 expected = 18
-if double(test_val) != expected:
-  print("Error.")
+reason = "Checking correct input"
+result = double(input)
+if result != expected:
+  print("Error:", input, expected, result, reason)
 else:
   print("Correct.")
+
+
+print("All tests done")
