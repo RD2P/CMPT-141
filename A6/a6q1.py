@@ -32,7 +32,10 @@ while enter_new == 'y':
   species = input("\nPokemon’s species? ")
   type = input("Pokemon’s type? ")
   level = input("Pokemon’s level? ")
+
+  # Push new pokemon dict to pokeDex
   pokeDex.append(create_new_pokemon(species, type, level))
+  # Ask user if they want to add another pokemon
   enter_new = input("\n-----\nAre there more pokemon to add (y/n)? ")
 
 print("\nLogging complete. Printing final PokeDex:\n")
