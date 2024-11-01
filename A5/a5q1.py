@@ -19,7 +19,4 @@ smallCities = [x for x in populationsSK if x[1] < 40000]
 namesSK = [x[0] for x in populationsSK]
 
 # d) long names
-longNames = [x[0] for x in populationsSK if len(x[0]) > 8]
-
-
-
+longNames = [x for x in populationsSK if len(x[0]) > 8]
