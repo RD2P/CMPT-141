@@ -42,6 +42,7 @@ if result != expected:
 
 
 # Exactly 20 in the list, the average of last 10 is greater than the average of other values
+# Should return True, not None
 # (I have a feeling this is the intentional error 🧙)
 test = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 expected = True
@@ -51,6 +52,7 @@ if result != expected:
 
 
 # Average of the last 10 items is equal to the rest
+# Should be False, since the average of the last 10 values is not GREATER than the average of the rest
 test = [2,2,2,2,2,2,2,2,2,1,3,1,3,2,2,2,2,2,2,2,2,2,2]
 expected = False
 result = improvedAverage(test)
@@ -59,6 +61,7 @@ if result != expected:
 
 
 # All zeros
+# Should be False, since the average of the last 10 values is not GREATER than the average of the rest
 test = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 expected = False
 result = improvedAverage(test)
