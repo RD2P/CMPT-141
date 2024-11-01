@@ -1,0 +1,12 @@
+# ===================== #
+# Raphael De Los Reyes
+# 11189672
+# gld141  
+# ===================== #
+
+
+This project I made a nested dictionary nums that represents how to display the numbers 0-5 in a 7x4 grid of pixels. 
+
+Each number is mapped to a dictionary containing seven keys (0-6). Each key represents a row in the grid. Each row is a list of columns which should be lit up to display the number (🟩). The unlit pixels are (⬛).
+
+The main function loops from 5 to 0 and calls print_num to print each number like a countdown timer.
