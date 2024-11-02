@@ -14,3 +14,12 @@ print()
 # do operations with a number
 print(a * 2)
 print(10 - b)
+
+
+# compare with lists
+print()
+l = [1,2,3]
+m = [4,5,6]
+print(l * 2) # [1,2,3,1,2,3]
+print(l + m) # [1,2,3,4,5,6]
+# print(l * m) error
