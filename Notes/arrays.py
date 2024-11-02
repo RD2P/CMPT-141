@@ -46,3 +46,9 @@ print(tt)
 # ones
 o = np.ones(4)
 print(o)
+
+
+# array attributes
+# ndim, size, shape, dtype
+print("z size, shape, dim, dtype: ", z.size, z.shape, z.ndim, z.dtype)
+print("zz size, shape, dim, dtype: ", zz.size, zz.shape, zz.ndim, zz.dtype)
