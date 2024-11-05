@@ -52,3 +52,5 @@ print(o)
 # ndim, size, shape, dtype
 print("z size, shape, dim, dtype: ", z.size, z.shape, z.ndim, z.dtype)
 print("zz size, shape, dim, dtype: ", zz.size, zz.shape, zz.ndim, zz.dtype)
+
+print(np.array([(1,2),(3,4),(5,6)]))
