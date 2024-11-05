@@ -2,6 +2,7 @@ import numpy as np
 
 # add, subtract, divide, multiply, power
 # must have the same shape
+# arrays remain unchanged, creates new array
 a = np.array([[1,2],[3,4]])
 b = np.array([[5,6],[7,8]])
 
