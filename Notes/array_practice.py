@@ -40,5 +40,10 @@ import numpy as np
 #   for j in i:
 #     print(j)
 
-A = np.array(range(1,11,2))
-print(A + 1)
+# create array from a range
+# A = np.array(range(1,11,2))
+# print(A + 1)
+
+# boolean mask indexing
+A = np.array([[1,2,5],[7,3,4],[8,2,7]])
+print(A[A < 5])
