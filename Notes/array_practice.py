@@ -45,5 +45,31 @@ import numpy as np
 # print(A + 1)
 
 # boolean mask indexing
-A = np.array([[1,2,5],[7,3,4],[8,2,7]])
-print(A[A < 5])
+A = np.array([
+  [1,2,5],
+  [7,3,4],
+  [8,2,7]])
+
+# all rows, first 2 cols
+# print(A[:,:2])
+
+# first 2 rows, last 2 cols
+# print(A[:2, 1:])
+
+B = np.array([
+  [1.2, 2.3, 5.6],
+  [1.2, 2.3, 5.6],
+  [1.2, 2.3, 5.6],
+])
+
+# print(A + B)
+# print(type(A))
+# print(type(A) == int)
+
+# iterating over arrays 
+# for x in np.nditer(A):
+#   print(x)
+
+# logical indexing
+a = np.array([True, True, False])
+print(B[a])
