@@ -1,0 +1,11 @@
+# ===================== #
+# Raphael De Los Reyes
+# 11189672
+# gld141  
+# ===================== #
+
+This project I used both numpy and matplotlib to generate and display "art". I used numpy to generate a 2D array of random integers between 0 and 255, inclusive. These integers become the values of the pixels in the image, which is stored in a 2D array. I then used matplotlib to display the image.
+
+Furthermore, from the art array, I created 2 new arrays, one to display a brighter image, the other darker. And all three are displayed using matplotlib.
+
+This project could be the beginnings of a potential image editing tool. One that could change the image brightness simply by doing array manipulations. I also see how we could crop images using slicing, or change contrast or do filters by doing array operations.
