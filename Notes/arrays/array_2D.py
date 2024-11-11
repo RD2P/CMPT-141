@@ -29,4 +29,11 @@ print(np.sum(subset)/subset.size)
 print(np.average(subset))
 
 # sum everything
-print(np.sum(A))
+print(np.sum(A), '\n')
+
+for i in turbines:
+  print(i) # print each row
+
+for i in turbines: # print each item
+  for j in i:
+    print(j)
