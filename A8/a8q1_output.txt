@@ -1,0 +1,12 @@
+# ===================== #
+# Raphael De Los Reyes
+# 11189672
+# gld141  
+# ===================== #
+
+Zeno's drive requires:
+11 minutes to travel 537 meters to Zeno's nearest coffee shop
+30 minutes to travel 384000000.0 meters from Moosetopia to its biggest moon
+39 minutes to travel 149000000000.0 meters from our earth to the sun
+57 minutes to travel 4e+16 meters from our sun to the nearest star
+91 minutes to travel 8.8e+26 meters across the observable universe
