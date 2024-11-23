@@ -1,0 +1,63 @@
+# ===================== #
+# Raphael De Los Reyes
+# 11189672
+# gld141  
+# ===================== #
+
+
+Room 1:
+10-foot Golden Buddha,$5000,70
+Biggest Diamond in the World,$2500,5
+Banana of Bombay,$3500,50
+Jade Thunderbird,$2500,40
+Philosopher's Stone,$700,3
+Onyx Eye of Horus,$800,6
+Pile of Rocks,$10,50
+
+To start, I listed the item worth and weight, sorted by value per kg:
+
+Worth ($)   Weight (kg)    $/kg     Cummulative Weight
+-----------------------------------------------------  
+$2500       5              500        5
+$700        3              233.33     8
+$800        6              133.33     13
+$5000       70             71.43      84  STOP
+$3500       50             70
+$2500       40             62.5
+$10         50             0.2
+--------------------------------------------------------
+Based on the above method Pikachu can take the 4 items for a total value of $9000 and total weight of 84kg.
+
+Upon inspection, I noticed that the 70kg item weighs a lot for $5000. And the following 2 items are worth more ($6000 for only 20kg more).
+I tried switching out this item with the two items: $3500, 50kg and $2500, 40kg :
+Worth ($)   Weight (kg)    $/kg     Cummulative Weight
+-----------------------------------------------------  
+$2500       5              500        5
+$700        3              233.33     8
+$3500       50             70         58
+$2500       40             62.5       98  STOP
+$800        6              133.33     
+$5000       70             71.43      
+$10         50             0.2
+
+This group of items weigh 98kg and has a total value of $9200.
+Final answer, Pikachu can take:
+Biggest Diamond in the World,$2500,5
+Banana of Bombay,$3500,50
+Jade Thunderbird,$2500,40
+Philosopher's Stone,$700,3
+
+Max value: $9200
+
+===========================================
+
+Room 2, bag size 100kg: 
+Max value: $435
+
+Room 3, bag size 100kg:
+Max value: $495
+
+Room 3, bag size 300kg:
+Max value: $988             *** Running this took........a long time....16 seconds..... ***
+
+
