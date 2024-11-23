@@ -1,0 +1,9 @@
+# ===================== #
+# Raphael De Los Reyes
+# 11189672
+# gld141  
+# ===================== #
+
+If the evolution book did not guarantee that a pokemon could not 'devolve', then the current solution could not reliably give the correct answer.
+My program relies on having a source pokemon as a key in the dictionary, where it iterates over the values in the key - the immediate evolutions of that pokemon. Then it recursively calls itself, this time with the immediate evolution as the new source, so in this way it only searches 'forward'.
+To address this, it would make sense to guarantee the book is correct in the first place - by writing another program to do the check. If we have to mitigate this with the can_evolve function itself, then I would probably start by taking out the first base case: if source not in book: return False, to remove the early stoppage of the program.
