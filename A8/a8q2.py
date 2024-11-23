@@ -28,3 +28,5 @@ def reverse_phrase(S):
   # join the reversed list back into a string
   reversed_string = ' '.join(reversed_list)
   return reversed_string
+
+print(reverse_phrase(""))
