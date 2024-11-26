@@ -22,6 +22,7 @@ def sort_in_place(L):
       j -= 1
   return L
 
+# insertion sort on array
 def sort_array(L):
   for i in range(1, L.size):
     j = i
