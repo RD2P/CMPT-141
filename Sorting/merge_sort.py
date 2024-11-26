@@ -9,12 +9,11 @@ def merge(S1, S2):
       S.append(S2[0])
       del S2[0]
 
-  if len(S1) > 0 or len(S2) > 0:
-    if len(S1) > 0:
+  if len(S1) > len(S2):
       S.extend(S1)
-    elif len(S2) > 0:
+  else:
       S.extend(S2)
-
+      
   return S
 
 def merge_sort(L):
