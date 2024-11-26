@@ -1,4 +1,4 @@
-l = ['abc', 'a', 'bb']
+# l = ['abc', 'a', 'bb']
 
 m = [3,4,2,7,1,3]
 
@@ -25,4 +25,26 @@ def sort_by_length(my_list):
 
   return L + E + G
 
-print(sort_by_length(m))
+def quick_sort(L):
+  if len(L) <= 1:
+    return L
+  
+  l, e, g = [], [], []
+  pivot = L[-1]
+
+  for i in L:
+    if i < pivot:
+      l.append(i)
+    elif i > pivot:
+      g.append(i)
+    else:
+      e.append(i)     
+  l = quick_sort(l)
+  g = quick_sort(g)
+
+  return l + e + g
+
+
+# print(sort_by_length(m))
+
+print(quick_sort(m))
