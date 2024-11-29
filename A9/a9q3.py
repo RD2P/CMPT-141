@@ -80,13 +80,14 @@ def count_types(db, names):
       res[type] = 1
   return res
 
+# since a9q3 is being imported in a9q4 for testing, this prevents the code below from executing during testing
+if __name__ == "__main__": 
+  db =  read_pokedata('pokemonLocations.txt') # create the database
+  continents = find_continents(db) # create list of continents
 
-db =  read_pokedata('pokemonLocations.txt') # create the database
-continents = find_continents(db) # create list of continents
-
-# iterate over the continents to print the write up about each continent
-for continent in continents:
-  pokemons = pokemon_in_continent(db, continent)
-  print(f"{continent}: {len(pokemons)} total pokemon")
-  print(count_types(db, pokemons))
-  print()
+  # iterate over the continents to print the write up about each continent
+  for continent in continents:
+    pokemons = pokemon_in_continent(db, continent)
+    print(f"{continent}: {len(pokemons)} total pokemon")
+    print(count_types(db, pokemons))
+    print()
