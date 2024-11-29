@@ -39,10 +39,8 @@ def quick_sort(L):
       g.append(i)
     else:
       e.append(i)     
-  l = quick_sort(l)
-  g = quick_sort(g)
 
-  return l + e + g
+  return quick_sort(l) + e + quick_sort(g)
 
 
 # print(sort_by_length(m))
