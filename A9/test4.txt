@@ -1,0 +1,2 @@
+bulbasaur,grass,South America,Africa,Asia
+charmander,fire,North America,Europe
