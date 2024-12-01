@@ -33,52 +33,52 @@ def read_pokedata(filename):
 def  find_continents(db):
   '''Constructs a list of all continents in which pokemon can be found, given a database of pokemon info
   Input:
-    dict of pokemon info with pokmon names as the key and each value is a dict in the form:
-        - name (str): The Pokemon's name.
-        - type (str): The Pokemon's type.
-        - locations (list): A list of strings representing locations where the Pokemon can be found.
+    dict of pokemon info with pokemon names as the key and each value is a dict in the form:
+        - name (str): The pokemon's name.
+        - type (str): The pokemon's type.
+        - locations (list): A list of locations where the pokemon can be found.
   Returns: a list of unique continents where pokemon can be found'''
-  res = []
+  result = []
   for record in db.values():
     for loc in record['locations']:
-      if loc not in res:
-        res.append(loc)
-  return res
+      if loc not in result:
+        result.append(loc)
+  return result
 
 
 def  pokemon_in_continent(db, continent):
   '''Creates a list of pokemon names that can be found in the continent
   Input:
     dict of pokemon info with pokmon names as the key and each value is a dict in the form:
-        - name (str): The Pokemon's name.
-        - type (str): The Pokemon's type.
-        - locations (list): A list of strings representing locations where the Pokemon can be found.
+        - name (str): The pokemon's name
+        - type (str): The pokemon's type
+        - locations (list): A list of locations where the Pokemon can be found
     continent (str): The name of the continent
   Returns: a list of pokemon names that can be found in the continent'''
-  res = []
+  result = []
   for record in db.values():
     if continent in record["locations"]:
-      res.append(record["name"])
-  return res
+      result.append(record["name"])
+  return result
 
 
 def count_types(db, names):
   '''Creates a dictionary of pokemon types and the number of pokemon of each type in the list
   Input:
     dict of pokemon info with pokmon names as the key and each value is a dict in the form:
-        - name (str): The Pokemon's name.
-        - type (str): The Pokemon's type.
-        - locations (list): A list of strings representing locations where the Pokemon can be found.
+        - name (str): The pokemon's name.
+        - type (str): The pokemon's type.
+        - locations (list): A list of locations where the pokemon can be found.
     names (list): A list of pokemon names
   Returns: a dictionary of pokemon types and the number of pokemon of each type in the list'''
-  res = {}
+  result = {}
   for name in names:
     type = db[name]["type"]
-    if type in res:
-      res[type] += 1
+    if type in result:
+      result[type] += 1
     else:
-      res[type] = 1
-  return res
+      result[type] = 1
+  return result
 
 # since a9q3 is being imported in a9q4 for testing, this prevents the code below from executing during testing
 if __name__ == "__main__": 
