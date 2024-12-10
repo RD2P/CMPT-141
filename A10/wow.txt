@@ -1,0 +1,9 @@
+# ===================== #
+# Raphael De Los Reyes
+# 11189672
+# gld141  
+# ===================== #
+
+To improve the user friendliness and appeal of my program, I wrapped the code in the main body into a main() function.
+The program then asks the user to input a filename, where the file becomes the input for the a10q1.
+After this is done, the program asks the user if they want to investigate another file. This cycles until the user says no.

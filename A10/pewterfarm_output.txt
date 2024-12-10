@@ -1,0 +1,21 @@
+# ===================== #
+# Raphael De Los Reyes
+# 11189672
+# gld141  
+# ===================== #
+
+Fruit yield from final year:
+****************************
+Firefruit : 2
+Waterfruit : 6
+Grassfruit : 6
+Joltfruit : 10
+Stellarfruit : 1
+
+Total farm yield after 3 years:
+**********************************
+Firefruit : 6
+Waterfruit : 14
+Grassfruit : 14
+Joltfruit : 22
+Stellarfruit : 3
