@@ -59,6 +59,15 @@ def print_nums(n, current=0):
 
 print_nums(4)
 
+def isPalindrome(s):
+  if len(s) <= 1:
+    return True
+  if s[0] != s[-1]:
+    return False
+  return isPalindrome(s[1:-1])
+
+print(isPalindrome("eevee"))
+
 
 # recursion limit helps guard against stack overflows
 # import sys
